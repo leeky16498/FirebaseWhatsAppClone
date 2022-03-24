@@ -15,7 +15,7 @@ struct SettingView: View {
                 .ignoresSafeArea()
             
             VStack(spacing: 32) {
-                SettingHeaderView()
+                SettingHeaderView()//
                 
                 VStack {
                     ForEach(SettingsCellViewModel.allCases, id: \.self) { vm in
